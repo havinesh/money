@@ -1,0 +1,22 @@
+.sub-nav{
+    margin-top: 70px;
+    background-color: var(--secondary);
+    line-height: 150px;
+    height: 150px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.sub-nav h2{
+    color: var(--white);
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+.padding{
+    padding: 0px;
+}
+.box{
+    border: 3px solid var(--primary);
+    margin: 10px;
+}
