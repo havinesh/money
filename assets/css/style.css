@@ -4,7 +4,7 @@
   /* --primary: #3E8DA8;
   --secondary: rgba(236,105,83); */
   /* --primary: #1f1d1d; */
-  --primary: #000;
+  --primary: rgb(30, 30, 30);
   --secondary: rgba(28,125,29);
   --white: #fff;
   --green: rgba(28,125,29);
@@ -225,7 +225,7 @@ nav .navbar .links li:hover .about-sub-menu{
     font-size: 15px;
   }
 }
-@media (max-width:800px){
+@media (max-width:900px){
   nav{
     /* position: relative; */
   }
@@ -345,7 +345,8 @@ nav .navbar .links li .sub-menu li{
 /* sub Nav */
 .sub-nav{
     margin-top: 70px;
-    background-color: var(--primary);
+    /* background-color: var(--primary); */
+    background-image: url(../img/sub-nav.png);
     line-height: 150px;
     height: 150px;
     text-align: center;
@@ -353,7 +354,7 @@ nav .navbar .links li .sub-menu li{
     align-items: center;
 }
 .sub-nav h2{
-    color: var(--green);
+    color: white;
     line-height: 1.5;
     display: inline-block;
     vertical-align: middle;
@@ -563,7 +564,7 @@ h2 {
 
 .testimonial-section h1{
   text-align: center;
-  color: #333;
+  color: White;
   font-size: 24px;
 }
 
@@ -696,7 +697,8 @@ h2 {
 
 .site-footer
 {
-  background-color: var(--primary);
+  background-color: rgb(17, 17, 17);
+  /* background-color: var(--primary); */
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
