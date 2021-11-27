@@ -493,7 +493,7 @@ ul {
 .section2 {
   padding-top: 4rem;
   padding-bottom: 5rem;
-  background-color: #f1f4fa;
+  /* background-color: #e5fae4; */
   padding: 80px 0px;
 }
 .wrap {
@@ -581,6 +581,7 @@ h2 {
   overflow: hidden;
   border-radius: 8px;
   cursor: pointer;
+  min-height: 368px;
 }
 
 .test-info{
@@ -616,7 +617,7 @@ h2 {
 
 /* Contact us home */
 .contact {
-    padding: 130px 0;
+    padding: 40px 0;
 }
 
 .contact .heading h2 {
@@ -742,10 +743,11 @@ h2 {
 .footer-links a
 {
   color: white;
+  text-decoration: none;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:black;
+  color: var(--green);
   text-decoration:none;
 }
 .footer-links.inline li
@@ -769,6 +771,14 @@ h2 {
 .copyright-text
 {
   margin:0
+}
+.copyright-text a
+{
+  text-decoration: none;
+}
+.copyright-text a:hover
+{
+  color: var(--green);
 }
 @media (max-width:991px)
 {
@@ -838,17 +848,17 @@ h2 {
 {
   background-color:#3b5998
 }
-.social-icons a.twitter:hover
+.social-icons a.youtube:hover
 {
-  background-color:#00aced
+  background-color:hsl(0, 100%, 46%)
 }
 .social-icons a.linkedin:hover
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
+.social-icons a.instagram:hover
 {
-  background-color:#ea4c89
+  background-color:#db374d
 }
 @media (max-width:767px)
 {
@@ -858,4 +868,53 @@ h2 {
     margin-right:0;
     font-weight:600
   }
+}
+
+/* services */
+
+.services-body{
+    max-width: 70rem;
+    padding: 20px;
+    margin: 30px auto 30px;
+}
+.sevices{
+    display: flex;
+    max-width: 70rem;
+    margin: 0px auto;
+}
+.padding{
+    padding: 20px;
+}
+.service-content{
+    width: 60%;
+}
+.service-content p{
+    font-size: 16px;
+}
+.padding-right{
+    padding-right: 20px;
+}
+.bg{
+    background-color: rgba(175, 221, 176, 0.659);
+    /* background-image: url(https://www.sundaramfinance.in//assets/images/Product%20Page%20Blue%20BG-b731n5.jpg); */
+    /* background-image: url(./Background.png); */
+    /* color: white; */
+}
+/* .bg h2{            
+    color: white;
+} */
+.bg2{
+    background-color: white;
+}
+ul{
+    list-style: circle;
+}
+
+@media only screen and (max-width: 700px) {
+    .service-img{
+        display: none;
+    }
+    .service-content{
+        width: 100%;
+    }
 }
