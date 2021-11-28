@@ -152,8 +152,8 @@ nav .navbar .links li:hover .about-sub-menu{
   line-height: 40px;
   text-align: center;
   font-size: 22px;
-  /* color: #fff; */
-  color: var(--green);
+  color: #fff;
+  /* color: var(--green); */
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
